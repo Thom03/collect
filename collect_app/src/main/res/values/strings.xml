@@ -641,5 +641,5 @@
     <string name="transport_type_sms">SMS</string>
     <string name="transport_type_value_sms">sms</string>
     <string name="seconds">Seconds</string>
-    <string name="double_tap_to_start">Double tap to start</string>
+    <string name="start_ranking">Start ranking</string>
 </resources>
