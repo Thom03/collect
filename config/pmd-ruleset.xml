@@ -79,9 +79,7 @@
         <exclude name="NcssCount" />
         <exclude name="NPathComplexity" />
         <exclude name="SignatureDeclareThrowsException" />
-        <exclude name="SimplifiedTernary" />
         <exclude name="SimplifyConditional" />
-        <exclude name="SimplifyBooleanReturns" />
         <exclude name="SingularField" />
         <exclude name="SwitchDensity" />
         <exclude name="TooManyFields" />
@@ -129,18 +127,14 @@
     </rule>
 
     <rule ref="category/java/performance.xml">
-        <exclude name="AppendCharacterWithChar" />
         <exclude name="AvoidFileStream" />
         <exclude name="AvoidInstantiatingObjectsInLoops" />
-        <exclude name="ConsecutiveAppendsShouldReuse" />
         <exclude name="InefficientEmptyStringCheck" />
         <exclude name="InefficientStringBuffering" />
         <exclude name="InsufficientStringBufferDeclaration" />
         <exclude name="OptimizableToArrayCall" />
-        <exclude name="RedundantFieldInitializer" />
         <exclude name="SimplifyStartsWith" />
         <exclude name="TooFewBranchesForASwitchStatement" />
-        <exclude name="UnnecessaryWrapperObjectCreation" />
         <exclude name="UseStringBufferForStringAppends" />
     </rule>
 </ruleset>
